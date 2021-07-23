@@ -19,7 +19,7 @@ export class Exercice3Component implements OnInit {
     console.log('click sur le composant exercice3 : ' + composant)
    }
    changeStatus(){
-    console.log('changeStatus() called')
+    //console.log('changeStatus() called')
     if(this.status)
       this.status= false;
     else
